@@ -31,7 +31,8 @@ public class IceCreamServiceImpl implements IceCreamService
     }
 
     @Override
-    public void deleteIceCream(Long id) {
+    public void deleteIceCream(Long id) 
+    {
         iceCreamRepository.deleteById(id);
     }
 }
