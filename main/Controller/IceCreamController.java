@@ -1,6 +1,7 @@
 @RestController
 @RequestMapping("/api/icecreams")
-public class IceCreamController {
+public class IceCreamController 
+{
 
     @Autowired
     private IceCreamService iceCreamService;
