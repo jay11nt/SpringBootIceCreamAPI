@@ -1,11 +1,13 @@
 @Service
-public class IceCreamServiceImpl implements IceCreamService {
+public class IceCreamServiceImpl implements IceCreamService 
+{
 
     @Autowired
     private IceCreamRepository iceCreamRepository;
 
     @Override
-    public IceCreamDTO addIceCream(IceCreamDTO iceCreamDTO) {
+    public IceCreamDTO addIceCream(IceCreamDTO iceCreamDTO) 
+    {
         IceCream iceCream = new VanillaIceCream(); // Default to Vanilla
         iceCream.setFlavorName(iceCreamDTO.getFlavorName());
         IceCream savedIceCream = iceCreamRepository.save(iceCream);
