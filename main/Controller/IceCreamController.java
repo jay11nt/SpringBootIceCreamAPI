@@ -19,12 +19,14 @@ public class IceCreamController
     }
 
     @GetMapping("/{id}")
-    public IceCreamDTO getIceCreamById(@PathVariable Long id) {
+    public IceCreamDTO getIceCreamById(@PathVariable Long id) 
+    {
         return iceCreamService.getIceCreamById(id);
     }
 
     @DeleteMapping("/{id}")
-    public void deleteIceCream(@PathVariable Long id) {
+    public void deleteIceCream(@PathVariable Long id) 
+    {
         iceCreamService.deleteIceCream(id);
     }
 }
