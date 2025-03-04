@@ -15,14 +15,16 @@ public class IceCreamServiceImpl implements IceCreamService
     }
 
     @Override
-    public List<IceCreamDTO> getAllIceCreams() {
+    public List<IceCreamDTO> getAllIceCreams() 
+    {
         return iceCreamRepository.findAll().stream()
                 .map(iceCream -> new IceCreamDTO(iceCream.getId(), iceCream.getFlavorName()))
                 .collect(Collectors.toList());
     }
 
     @Override
-    public IceCreamDTO getIceCreamById(Long id) {
+    public IceCreamDTO getIceCreamById(Long id) 
+    {
         IceCream iceCream = iceCreamRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Ice cream not found"));
         return new IceCreamDTO(iceCream.getId(), iceCream.getFlavorName());
