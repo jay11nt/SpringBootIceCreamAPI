@@ -4,7 +4,8 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-public class ChocoIceCream {
+public class ChocoIceCream 
+{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
