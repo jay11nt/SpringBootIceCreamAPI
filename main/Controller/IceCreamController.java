@@ -7,12 +7,14 @@ public class IceCreamController
     private IceCreamService iceCreamService;
 
     @PostMapping
-    public IceCreamDTO addIceCream(@RequestBody IceCreamDTO iceCreamDTO) {
+    public IceCreamDTO addIceCream(@RequestBody IceCreamDTO iceCreamDTO) 
+    {
         return iceCreamService.addIceCream(iceCreamDTO);
     }
 
     @GetMapping
-    public List<IceCreamDTO> getAllIceCreams() {
+    public List<IceCreamDTO> getAllIceCreams() 
+    {
         return iceCreamService.getAllIceCreams();
     }
 
