@@ -1,7 +1,6 @@
 @Service
 public class IceCreamServiceImpl implements IceCreamService 
 {
-
     @Autowired
     private IceCreamRepository iceCreamRepository;
 
