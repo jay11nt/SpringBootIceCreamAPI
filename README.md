@@ -85,10 +85,11 @@ src/
 ### Create Ice Cream
 
 **Request:**
-```
+
 POST /api/icecreams
 Content-Type: application/json
 
+```
 {
   "name": "Chocolate Delight",
   "price": 5.99,
