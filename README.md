@@ -2,7 +2,7 @@
 project with many-to-many bidirectional mapping relationships.
 
 
-# Ice Cream Shop API
+# Ice Cream Shop API-
 
 A Spring Boot REST API for managing ice cream products in an ice cream shop.
 
