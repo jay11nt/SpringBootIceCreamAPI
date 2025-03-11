@@ -6,7 +6,7 @@ project with many-to-many bidirectional mapping relationships.
 
 A Spring Boot REST API for managing ice cream products in an ice cream shop.
 
-## Features
+## Features-
 
 - Create, read, update, and delete ice cream products
 - Manage ice cream flavors, types, and toppings
