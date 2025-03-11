@@ -12,7 +12,7 @@ A Spring Boot REST API for managing ice cream products in an ice cream shop.
 - Manage ice cream flavors, types, and toppings
 - RESTful API endpoints for easy integration
 
-## Technologies
+## Technologies-
 
 - Java 17
 - Spring Boot 3.2
