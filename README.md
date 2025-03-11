@@ -108,7 +108,7 @@ Content-Type: application/json
 }
 ```
 
-**Response:**
+**Response:**-
 ```
 {
   "id": 1,
