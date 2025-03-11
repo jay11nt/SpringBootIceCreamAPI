@@ -57,7 +57,7 @@ src/
 
 ## Setup and Running-
 
-### Prerequisites
+### Prerequisites-
 - Java 17 or higher
 - Maven
 
