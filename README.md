@@ -20,7 +20,7 @@ A Spring Boot REST API for managing ice cream products in an ice cream shop.
 - H2 Database (can be configured for production databases)
 - Maven
 
-## Project Structure
+## Project Structure-
 
 ```
 src/
