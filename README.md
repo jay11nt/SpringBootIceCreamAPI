@@ -82,7 +82,7 @@ src/
 
 ## Sample Request/Response-
 
-### Create Ice Cream
+### Create Ice Cream-
 
 **Request:**
 
