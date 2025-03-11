@@ -80,7 +80,7 @@ src/
 
 4. Access the API at http://localhost:8080/api/icecreams
 
-## Sample Request/Response
+## Sample Request/Response-
 
 ### Create Ice Cream
 
