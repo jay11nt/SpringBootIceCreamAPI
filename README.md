@@ -55,7 +55,7 @@ src/
 | PUT    | /api/icecreams/{id} | Update ice cream |
 | DELETE | /api/icecreams/{id} | Delete ice cream |
 
-## Setup and Running
+## Setup and Running-
 
 ### Prerequisites
 - Java 17 or higher
