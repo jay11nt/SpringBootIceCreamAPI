@@ -61,7 +61,7 @@ src/
 - Java 17 or higher
 - Maven
 
-### Steps
+### Steps-
 1. Clone the repository
    ```
    git clone https://github.com/yourusername/ice-cream-shop.git
