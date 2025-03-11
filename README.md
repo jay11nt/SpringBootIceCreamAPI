@@ -45,7 +45,7 @@ src/
 │         └── application.properties
 ```
 
-## API Endpoints
+## API Endpoints-
 
 | Method | URL | Description |
 |--------|-----|-------------|
