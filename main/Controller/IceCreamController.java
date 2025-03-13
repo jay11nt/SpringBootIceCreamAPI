@@ -10,7 +10,7 @@ public class IceCreamController
     public IceCreamDTO addIceCream(@RequestBody IceCreamDTO iceCreamDTO) 
      {
         return iceCreamService.addIceCream(iceCreamDTO);
-    }
+     }
 
     @GetMapping
     public List<IceCreamDTO> getAllIceCreams() 
