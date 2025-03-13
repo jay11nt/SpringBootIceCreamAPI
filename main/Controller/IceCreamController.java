@@ -8,7 +8,7 @@ public class IceCreamController
 
     @PostMapping
     public IceCreamDTO addIceCream(@RequestBody IceCreamDTO iceCreamDTO) 
-    {
+     {
         return iceCreamService.addIceCream(iceCreamDTO);
     }
 
